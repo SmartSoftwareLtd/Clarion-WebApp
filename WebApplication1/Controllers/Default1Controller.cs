@@ -20,6 +20,10 @@ namespace WebApplication1.Controllers
             return View(db.Employees.ToList());
         }
 
+ public ActionResult AddFromGitLogin()
+        {
+            return View(db.Employees.ToList());
+        }
         // GET: /Default1/Details/5
         public ActionResult Details(string id)
         {
