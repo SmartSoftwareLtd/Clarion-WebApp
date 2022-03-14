@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
             return View(db.Employees.ToList());
         }
 
- public ActionResult AddFromGitLogin()
+        public ActionResult AddFromGitLogin()
         {
             return View(db.Employees.ToList());
         }
