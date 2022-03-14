@@ -12,6 +12,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult TestBranch()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {
